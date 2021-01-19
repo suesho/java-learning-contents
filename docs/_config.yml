@@ -21,8 +21,8 @@ email:
 #  Google search results) and in your feed.xml site description.
 #twitter_username: username
 #github_username: username
-minimal_mistakes_skin: "air" #default
-site.locale: "ja-JP"
+minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+locale: "ja-JP"
 search: true
 
 # Build settings
@@ -88,6 +88,12 @@ footer:
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -107,6 +113,18 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
 
 category_archive:
   type: liquid

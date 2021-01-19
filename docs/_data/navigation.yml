@@ -1,9 +1,47 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
+  - title: "Contents"
+    url: /docs/contents/
+#  - title: "Contents2"
+#    url: /
+#  - title: "Posts"
+#    url: /posts/
+#  - title: "Categories"
+#    url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about/
+#  - title: "About"
+#    url: /about/
+
+docs:
+  - title: "Contents"
+    url: /docs/contents/
+  - title: カテゴリ1
+    children:
+      - title: "小カテゴリ1"
+        url: /docs/test1/
+      - title: "小カテゴリ2"
+        url: /docs/test2/
+      - title: "小カテゴリ3"
+        url: /docs/test3/
+      - title: "小カテゴリ4"
+        url: /docs/test4/
+  - title: カテゴリ2
+    children:
+      - title: "小カテゴリ1"
+        url: /docs/test1/
+      - title: "小カテゴリ2"
+        url: /docs/test2/
+      - title: "小カテゴリ3"
+        url: /docs/test3/
+      - title: "小カテゴリ4"
+        url: /docs/test4/
+  - title: カテゴリ3
+    children:
+      - title: "小カテゴリ1"
+        url: /docs/test1/
+      - title: "小カテゴリ2"
+        url: /docs/test2/
+      - title: "小カテゴリ3"
+        url: /docs/test3/
+      - title: "小カテゴリ4"
+        url: /docs/test4/
