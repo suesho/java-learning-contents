@@ -1,19 +1,19 @@
 main:
-  - title: "Contents"
+  - title: "このページについて"
     url: /docs/contents/
 #  - title: "Contents2"
 #    url: /
 #  - title: "Posts"
 #    url: /posts/
-#  - title: "Categories"
-#    url: /categories/
-  - title: "Tags"
+  - title: "カテゴリ"
+    url: /categories/
+  - title: "タグ"
     url: /tags/
 #  - title: "About"
 #    url: /about/
 
 docs:
-  - title: "Contents"
+  - title: "このページについて"
     url: /docs/contents/
   - title: カテゴリ1
     children:
